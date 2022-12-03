@@ -1,0 +1,64 @@
+body > header {
+    height: 70px;
+    width: 100%;
+    background: #3d464e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body {
+    font: 14px "Ariel";
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#logo {
+    height: 40px;
+    margin: auto 0 auto 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: 40px 40px;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li {
+    padding: 0 25px;
+    margin: 0 5px;
+    font-size: 1em;
+    line-height: 4.3em;
+}
+
+table, td, th {
+    border-collapse: collapse;
+    border: 1px solid black;
+
+}
+
+  table {
+    width: 60%;
+    table-layout: fixed;
+  }
+
+ .tlacitko {
+    color: white;
+    background: blue 200px;
+    border-radius: 200px;
+ }
+
+ form {
+    text-align: center;
+ }
+
+
+ 
